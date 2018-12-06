@@ -80,7 +80,7 @@ namespace EmailService.API
                 var config = it.GetService<IConfiguration>();
                 return mongoDb.GetCollection<EmailDatabaseModel>(config.GetSection("mongodb").GetValue<string>("emailCollectionName", "emails"));
             });
-            `
+            
             services.AddSingleton<IConfiguration>(it => Configuration);
 
             services.AddScoped<SmtpClient>(it =>

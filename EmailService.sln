@@ -1,8 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailService.API", "src\Services\EmailService\EmailService.API\EmailService.API.csproj", "{6C215C8E-A76B-439A-AB29-20CB545CD88C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C215C8E-A76B-439A-AB29-20CB545CD88C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C215C8E-A76B-439A-AB29-20CB545CD88C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C215C8E-A76B-439A-AB29-20CB545CD88C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C215C8E-A76B-439A-AB29-20CB545CD88C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
